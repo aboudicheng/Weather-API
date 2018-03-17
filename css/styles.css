@@ -1,0 +1,62 @@
+body {
+  background-color: #3E67F8;
+}
+
+h1 {
+	font-family: 'Century-Gothic';
+	font-size: 3.5em;
+	text-align: center;
+	margin: 3rem auto;
+  	width: 100%;
+}
+
+.info {
+	margin: 0 auto;
+	width: 30%;
+}
+
+#load {
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	padding: 0 25%;
+	width: 100%;
+}
+
+#location {
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+	padding: 0 30%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#temperature {
+	display: inline-block;
+	float: left;
+	margin: auto;
+	padding: 0 40%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#city {
+	display: inline-block;
+	float: left;
+}
+
+#country {
+	display: inline-block;
+	float: left;
+}
+
+#temp {
+	display: inline-block;
+	float: left;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
