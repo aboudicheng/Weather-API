@@ -1,5 +1,5 @@
 body {
-  background-color: #3E67F8;
+	background-color: #117A8E;
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 	font-size: 3.5em;
 	text-align: center;
 	margin: 3rem auto;
-  	width: 100%;
+	width: 100%;
 }
 
 .info {
@@ -25,19 +25,22 @@ h1 {
 
 #location {
 	display: inline-block;
-	float: left;
 	margin: 0 auto;
-	padding: 0 30%;
-	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+#weathergif {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
 	box-sizing: border-box;
 }
 
 #temperature {
 	display: inline-block;
-	float: left;
-	margin: auto;
-	padding: 0 40%;
-	width: 100%;
+	margin: 2.5rem auto;
+	text-align: center;
 	box-sizing: border-box;
 }
 
@@ -52,9 +55,17 @@ h1 {
 }
 
 #temp {
-	display: inline-block;
 	float: left;
-	margin: 0 auto;
+}
+
+#unit {
+	cursor: pointer;
+	float: left;
+}
+
+#weather-condition {
+	text-align: center;
+	margin-bottom: 5rem;
 }
 
 .clearfix {
