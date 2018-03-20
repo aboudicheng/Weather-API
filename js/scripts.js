@@ -55,7 +55,7 @@ function getWeather(lat, long) {
       $("#country").text(data.sys.country);
 
       //temperature initially converts from Kelvin to Celsius
-      temp = data.main.temp - 273.15;
+      temp = Math.round(data.main.temp - 273.15);
 
       $("#temp").text(temp);
       $("#unit").text(unit);
