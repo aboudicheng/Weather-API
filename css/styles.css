@@ -16,7 +16,7 @@ h1 {
 }
 
 #load {
-	display: inline-block;
+	
 	float: left;
 	margin: 0px;
 	padding: 0 25%;
@@ -56,24 +56,24 @@ h1 {
 	text-align: center;
 	box-sizing: border-box;
 } #min {
-	display: inline-block;
+	
 	float: left;
 } .backslash {
-	display: inline-block;
+	
 	float: left;
 	margin: 0 1.5rem;
 } #max {
-	display: inline-block;
+	
 	float: left;
 }
 
 #city {
-	display: inline-block;
+	
 	float: left;
 }
 
 #country {
-	display: inline-block;
+	
 	float: left;
 }
 
